@@ -21,7 +21,8 @@ try {
       scriptSrc: ["'self'", 'text/html', 'www.googletagmanager.com', 'unsafe-inline'],
       connectSrc: [
         "'self'",
-        'npoint.io'
+        'npoint.io',
+        'api.npoint.io'
       ],
       imgSrc: ["'self'", 'www.w3.org', 'data:', 'npoint.io', "www.googletagmanager.com",  "googletagmanager"]
     }
