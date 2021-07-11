@@ -23,7 +23,7 @@ try {
         "'self'",
         'npoint.io'
       ],
-      imgSrc: ["'self'", 'www.w3.org', 'data:', 'npoint.io']
+      imgSrc: ["'self'", 'www.w3.org', 'data:', 'npoint.io', "www.googletagmanager.com",  "googletagmanager"]
     }
   }))
   app.use(helmet.referrerPolicy({ policy: 'same-origin' }))
