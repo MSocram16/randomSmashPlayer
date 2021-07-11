@@ -21,10 +21,9 @@ try {
       scriptSrc: ["'self'", 'text/html', 'www.googletagmanager.com', 'unsafe-inline'],
       connectSrc: [
         "'self'",
-        'api.easymd.co',
-        'easymd-backend.herokuapp.com'
+        'npoint.io'
       ],
-      imgSrc: ["'self'", 'www.w3.org', 'data:', 'easymdpord.s3.amazonaws.com', 'api.easymd.co', 'easymd-backend.herokuapp.com']
+      imgSrc: ["'self'", 'www.w3.org', 'data:', 'npoint.io']
     }
   }))
   app.use(helmet.referrerPolicy({ policy: 'same-origin' }))
